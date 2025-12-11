@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+
+<link rel="stylesheet" href="mini.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Dashboard</h2>
+
+    <div class="menu-item active" data-page="dashboard">Dashboard</div>
+    <div class="menu-item" data-page="students">Students</div>
+    <div class="menu-item" data-page="attendance">Attendance</div>
+    <div class="menu-item" data-page="timetable">Timetable</div>
+    <div class="menu-item" data-page="exams">Exams & Results</div>
+    <div class="menu-item" data-page="fees">Fees & Payments</div>
+    <div class="menu-item" data-page="library">Library</div>
+    <div class="menu-item" data-page="hostel">Hostel</div>
+    <div class="menu-item" data-page="notifications">Notifications</div>
+    <div class="menu-item" data-page="transport">Transport</div>
+</div>
+
+<div class="main">
+    <div id="contentArea">
+
+        <div class="header">
+            <h1>WELCOME <span>AYUSH!</span></h1>
+  
+        </div>
+
+        <div class="cards">
+            <div class="card">Total Students<br><b>80</b></div>
+            <div class="card">Today Classes<br><b>08</b></div>
+            <div class="card">Class Attendance<br><b>91%</b></div>
+            <div class="card">Upcoming Exams<br><b>03</b></div>
+        </div>
+
+        <div class="chart-section">
+            <div class="panel"><canvas id="donutChart"></canvas></div>
+            <div class="panel"><canvas id="lineChart"></canvas></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="mini.js"></script>
+
+</body>
+</html>

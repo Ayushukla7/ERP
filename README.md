@@ -34,8 +34,8 @@ The system provides a simple and user-friendly interface for handling attendance
 ```
 ERP-Attendance-System/
 │── index.html
-│── style.css
-│── script.js
+│── mini.css
+│── mini.js
 │── assets/
 ```
 
